@@ -1,0 +1,27 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,41,207,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+
+}
+
+.conversor{
+    background-color: #f0f8ff;
+    line-height: 100px;
+    min-width: 300px;
+    
+    border-radius: 15px;
+    
+    box-shadow: black 5px;
+    transition: 2ms;
+    
+}
+
+.conversor:hover{
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.conversor input + input {
+    margin-left: 10px;
+}
