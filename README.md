@@ -7,4 +7,4 @@
  npm ci
 '''
 
-[Imgur](https://imgur.com/FgbfZBY)
+[Imgur](https://i.imgur.com/FgbfZBY.png)
